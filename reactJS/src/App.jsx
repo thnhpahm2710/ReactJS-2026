@@ -1,13 +1,19 @@
 import './App.css'
-import { useState } from 'react'
-import Card from './components/Card/Card'
+import Table from './components/Bai1/Table'
+import Toggle from './components/Bai2/Toggle'
+
 function App() {
+
+    const posts = [
+        {id: 1, title: "Domenic", body: "dcode"},
+        {id: 2, title: "Sally", body: "Students"},
+        {id: 3, title: "Lin", body: "dcode"},
+    ]
 
   return (
     <>
-      <Card>
-        <h1>new year new me</h1>
-      </Card>
+        <Table data={posts} />
+        <Toggle />
     </>
   )
 }
