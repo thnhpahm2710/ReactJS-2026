@@ -1,6 +1,6 @@
-import './Table.css'
+import './Bai1.css'
 
-function Table({ data }) {
+function Bai1({ data }) {
   return (
     <table className="styled-table">
       <thead>
@@ -22,5 +22,4 @@ function Table({ data }) {
     </table>
   )
 }
-
-export default Table
+export default Bai1

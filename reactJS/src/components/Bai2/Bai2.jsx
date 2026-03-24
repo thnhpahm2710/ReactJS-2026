@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './Toggle.css'
+import './Bai2.css'
 
-function Toggle() {
+function Bai2() {
   const [isOn, setIsOn] = useState(false)
 
   const handleToggle = () => {
@@ -15,5 +15,4 @@ function Toggle() {
     </div>
   )
 }
-
-export default Toggle
+export default Bai2
