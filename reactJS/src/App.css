@@ -43,3 +43,8 @@
 .read-the-docs {
   color: #888;
 }
+.custom-box {
+  background-color: #f0fdf4;
+  border-color: #16a34a;
+  color: #166534;
+}
