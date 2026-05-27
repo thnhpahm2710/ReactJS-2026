@@ -5,8 +5,5 @@ import shopReducer from "../features/shop/shopSlice";
 export const store = configureStore({
   reducer: {
     shop: shopReducer,
-    cart: cart,
-    status: status,
-    error: error
   },
 });
